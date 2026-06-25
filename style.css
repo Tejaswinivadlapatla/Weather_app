@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url("images/worldmap.jpg") no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.overlay {
+  width: 100%;
+  min-height: 100vh;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.logo i {
+  font-size: 55px;
+  color: #ffd54f;
+  margin-right: 15px;
+}
+
+.logo h1 {
+  font-size: 40px;
+}
+
+.logo p {
+  font-size: 18px;
+}
+
+.search-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.weather-card {
+  width: 85%;
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.left {
+  width: 45%;
+}
+
+.right {
+  width: 45%;
+}
+
+.left h2 {
+  font-size: 40px;
+}
+.left h1 {
+  font-size: 75px;
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.left h3 {
+  margin-top: 10px;
+  font-size: 28px;
+}
+
+#weatherIcon {
+  width: 130px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 22px;
+}
+
+.item i {
+  color: #ffd54f;
+  margin-right: 10px;
+}
+.search-box input {
+  width: 500px;
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px 0 0 12px;
+  outline: none;
+}
+
+.search-box button {
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  background: #1e88e5;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 12px 12px 0;
+}
+
+.search-box button:hover {
+  background: #1565c0;
+}
+.forecast-container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 30px auto;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  gap: 20px;
+}
